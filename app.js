@@ -9,8 +9,9 @@ fromDollarToYen = (dollar) => Number((dollar * oneEuroIs.JPY / oneEuroIs.USD).to
 fromEuroToDollar = (euro) => Number((euro * oneEuroIs.USD).toFixed(2));
 fromYenToPound = (yen) => Number((yen * oneEuroIs.GBP / oneEuroIs.JPY).toFixed(2));
 
-// console.log(fromDollarToYen(10));
-// console.log(fromEuroToDollar(10));
-// console.log(fromYenToPound(10));
+
+// console.log(fromDollarToYen(1));
+// console.log(fromEuroToDollar(1));
+// console.log(fromYenToPound(1));
 
 module.exports = { fromDollarToYen, fromEuroToDollar, fromYenToPound };

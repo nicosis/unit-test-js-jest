@@ -13,7 +13,8 @@ test('si ingresamos 1 dolar debería retornar 106,58 yenes', () => {
     let total = fromDollarToYen(1);
     expect(total).toBe(106.58);
 });
-test('si ingresamos 100 dolares debería retornar 10658,33 yenes', () => {
+
+test('si ingresamos 100 dolares debería retornar 10.658,33 yenes', () => {
     let total = fromDollarToYen(100);
     expect(total).toBe(10658.33);
 });
